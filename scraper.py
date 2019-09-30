@@ -11,14 +11,6 @@
 import requests, csv
 
 fileName = "results"
-
-#checks to see if term has already been searched
-def updateTerm(term, count, f):
-	for row in f:
-		if row['Term'] == term:
-			row['Count'] = str(count)
-			return (1)
-	return (0)	
 		
 #addRes adds the result of search to the results file, creates new file if it does not exist
 def addRes(term, count, url):
