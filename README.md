@@ -1,5 +1,6 @@
 # Python-Scraper
-A python scraper for searching the frequency with which certain terms appear on webpages.
+A python scraper for searching the frequency with which certain terms appear on webpages. Employees
+the requests and csv modules.
 
 This scraper requires the user to provide the URL of the desired webpage and the term/ terms which
 they wish to know the frequency of. The scraper first prompts the user to input the URL, it then 
